@@ -26,7 +26,7 @@ function calculateBMI() {
       console.log("normal weihth")
     } else if (BMI < 19){ 
       console.log("underweight")
-    } else  (BMI > 24){
+    } else if (BMI > 24){
       console.log("Overwieght")
     }
     
@@ -35,7 +35,7 @@ function calculateBMI() {
       console.log("normal weihth")
     } else if (BMI < 18.5){ 
       console.log("underweight")
-    } else  (BMI > 24.9){
+    } else if (BMI > 24.9){
       console.log("Overwieght")
     }
   
@@ -47,7 +47,7 @@ function calculateBMI() {
     alert("normal weihth")
   } else if (BMI <BMI_START){ 
     console.log("underweight")
-  } else  (BMI > BMI_END){
+  } else if (BMI > BMI_END){
     console.log("Overwieght")
   }
 }}
