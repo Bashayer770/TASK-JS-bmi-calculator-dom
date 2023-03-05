@@ -20,4 +20,34 @@ function calculateBMI() {
     alert(`Obesity ${BMI} ${height} ${weight}`)
   }
 
-}
+
+  if (age >= 19 && age >=24  ){
+    if(BMI > 19 && BMI < 24 ){
+      console.log("normal weihth")
+    } else if (BMI < 19){ 
+      console.log("underweight")
+    } else  (BMI > 24){
+      console.log("Overwieght")
+    }
+    
+  } else if (age>= 25 && age <= 34 ){
+    if(BMI > 18.5 && BMI < 24.9 ){
+      console.log("normal weihth")
+    } else if (BMI < 18.5){ 
+      console.log("underweight")
+    } else  (BMI > 24.9){
+      console.log("Overwieght")
+    }
+  
+  
+} else if (age>= 35 && age <= 44 ){
+  let BMI_START = 21
+  let BMI_END = 26
+  if(BMI >= BMI_START && BMI <= BMI_END){
+    alert("normal weihth")
+  } else if (BMI <BMI_START){ 
+    console.log("underweight")
+  } else  (BMI > BMI_END){
+    console.log("Overwieght")
+  }
+}}
